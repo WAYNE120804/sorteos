@@ -23,5 +23,5 @@ public class Sorteo {
 
     @ManyToOne
     @JoinColumn(name = "id_tipo_sorteo")
-    private tipoSorteo fk_tipo_sorteo;
+    private TipoSorteo fk_tipo_sorteo;
 }

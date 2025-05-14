@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @Table(name = "boleta")
-public class boleta {
+public class Boleta {
 
     @Id
     private Integer id_boleta;

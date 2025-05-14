@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.security.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -15,7 +15,7 @@ public class Abono {
     @Id
     private Integer id_abono;
 
-    private Timestamp fecha_abono;
+    private LocalDateTime fecha_abono;
     private BigDecimal valor_abono;
     private String descripcion;
 

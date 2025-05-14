@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.security.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -17,11 +17,10 @@ public class MovimientoDeuda {
     @Id
     private Integer id_movimiento;
 
-    private Timestamp fecha_movimiento;
+    private LocalDateTime fecha_movimiento;
     private String tipo_movimiento;
     private Integer cantidad_boletas;
-    private BigDecimal valor_unitario;
-    private BigDecimal comision;
+    private BigDecimal valor_total;
     private BigDecimal valor_abono;
     private String observacion;
 

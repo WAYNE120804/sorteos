@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 
 @Table(name = "tipo_sorteo")
-public class tipoSorteo {
+public class TipoSorteo {
 
     @Id
     private Integer id_tipo_sorteo;

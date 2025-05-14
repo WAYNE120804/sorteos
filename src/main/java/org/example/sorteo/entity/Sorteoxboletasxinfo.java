@@ -11,7 +11,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class sorteoxboletasxinfo implements Serializable {
+public class Sorteoxboletasxinfo implements Serializable {
 
     private Integer fk_sorteo;
     private Integer fk_boleta;

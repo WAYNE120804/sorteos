@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Table(name = "informacion_sorteo")
-public class informacionSorteo {
+public class InformacionSorteo {
     @Id
     private Integer id_info_sorteo;
     private String nombre_sorteo;
